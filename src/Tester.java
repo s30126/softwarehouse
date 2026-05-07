@@ -19,7 +19,7 @@ public class Tester extends Pracownik {
 
     @Override
     public double obliczKosztMiesieczny() {
-        return super.obliczKosztMiesieczny();
+        return super.obliczKosztMiesieczny() + 75.50;
     }
 
     @Override
@@ -28,7 +28,7 @@ public class Tester extends Pracownik {
     }
 
     public void uruchomRaportTestow() {
-
+        System.out.println("Liczba przeprowadzonych przez tego testera scenariuszy: " + liczbaScenariuszy);
     }
 
 }

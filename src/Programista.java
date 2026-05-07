@@ -11,7 +11,7 @@ public class Programista extends Pracownik {
 
     @Override
     public double obliczKosztMiesieczny() {
-        return super.obliczKosztMiesieczny();
+        return super.obliczKosztMiesieczny() + 150;
     }
 
     @Override
@@ -20,7 +20,14 @@ public class Programista extends Pracownik {
     }
 
     public void wypiszTechnologie() {
-
+        System.out.println("język: " + glownyJezyk + ", repozytoria: " + liczbaRepozytoriow);
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + '\'' +
+                ", glownyJezyk='" + glownyJezyk + '\'' +
+                ", liczbaRepozytoriow='" + liczbaRepozytoriow +
+                '}';
+    }
 }
