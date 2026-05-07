@@ -17,6 +17,16 @@ public class Tester extends Pracownik {
         return liczbaScenariuszy;
     }
 
+    @Override
+    public double obliczKosztMiesieczny() {
+        return super.obliczKosztMiesieczny();
+    }
+
+    @Override
+    public String przedstawSie() {
+        return "tester " + super.przedstawSie();
+    }
+
     public void uruchomRaportTestow() {
 
     }

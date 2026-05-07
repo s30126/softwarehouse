@@ -9,10 +9,18 @@ public class Programista extends Pracownik {
         this.liczbaRepozytoriow = liczbaRepozytoriow;
     }
 
+    @Override
+    public double obliczKosztMiesieczny() {
+        return super.obliczKosztMiesieczny();
+    }
+
+    @Override
+    public String przedstawSie() {
+        return "programista " + super.przedstawSie();
+    }
+
     public void wypiszTechnologie() {
 
     }
-
-
 
 }

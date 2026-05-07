@@ -23,5 +23,6 @@ public class Main {
 
         System.out.println(p2.equals(new Tester("E-201", "Inne", "Dane", 9000.0, false, 10)));
         System.out.println(p2);
+
     }
 }
